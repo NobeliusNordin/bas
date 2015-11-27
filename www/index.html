@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+
+
+    <ion-pane>
+      <ion-header-bar class="bar-calm">
+         <button class="button icon ion-ios-list"> Min beställning</button>
+        <h1 class="title">Swirls</h1>
+      </ion-header-bar>
+
+      <div class="bar bar-subheader">
+        <img src="img/ice-large.png" height="150px" width="300px">
+      </div>
+
+    
+
+    <ion-content class="padding" subheader="true">
+      <br /><br />
+
+      <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Sed at orci eu leo commodo commodo. Fusce eget vestibulum nisl.
+      Quisque vitae nibh ut arcu dapibus malesuada.
+      Cras lobortis ultrices orci sed lacinia. Donec at nulla a lectus.-->
+
+      <p>Välj först vilken glasstyp ni önskar:</p>
+      <ion-radio ng-model="choice" ng-value="'A'">Bägare</ion-radio>
+      <ion-radio ng-model="choice" ng-value="'B'">Våffla</ion-radio>
+      <ion-radio ng-model="choice" ng-value="'C'">Strut</ion-radio>
+      <br />
+      <p>Välj sedan vilka smaker ni önskar:</p>
+      <a href="#" class="button">Glasssmaker</a>
+      <br /><br />
+      <p>Välj sedan om ni önskar någon topping:</p>
+      <a href="#" class="button">Topping</a>
+
+  </ion-content>
+
+  <ion-footer-bar class="bar-calm">
+    <h1 class="title">Swirls</h1>
+  </ion-footer-bar>
+
+
+  </ion-pane>
+
+  </body>
+</html>
