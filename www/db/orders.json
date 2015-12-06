@@ -1,0 +1,25 @@
+{
+	"orders": [{
+		"orderNumber": "1",
+		"orderDate": "2015-11-11",
+		"menuItemIds": [{
+			"menuItem": "h1"
+		}],
+		"extras": ""
+	}, {
+		"orderNumber": "2",
+		"orderDate": "2015-11-11",
+		"menuItemIds": [{
+			"menuItem": "h1",
+			"menuItem": "h1"
+		}],
+		"extras": "extra brunsås"
+	}, {
+		"orderNumber": "3",
+		"orderDate": "2015-11-11",
+		"menuItemIds": [{
+			"menuItem": "e1"
+		}],
+		"extras": "utan äpple"
+	}]
+}

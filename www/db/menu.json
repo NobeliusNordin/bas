@@ -1,0 +1,31 @@
+{
+	"mainMenu": [{
+		"subMenu": "s1",
+		"subMenuDescription": "Huvudrätter",
+		"menuItems": [{
+			"menuItem": "h1",
+			"title": "Dagens soppa",
+			"description": "En snorbillig god jävla soppa",
+			"price": "65"
+		}, {
+			"menuItem": "h2",
+			"title": "Dagens vilt",
+			"description": "Överkörd grävling med asmycket brunsås",
+			"price": "165"
+		}]
+	}, {
+		"subMenu": "s2",
+		"subMenuDescription": "Efterrätter",
+		"menuItems": [{
+			"menuItem": "e1",
+			"title": "Dagens paj",
+			"description": "Äppelpaj",
+			"price": "45"
+		}, {
+			"menuItem": "e2",
+			"title": "Chokladpudding",
+			"description": "Choklad och pudding",
+			"price": "85"
+		}]
+	}]
+}
