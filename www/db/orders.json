@@ -1,6 +1,7 @@
 {
 	"orders": [{
 		"orderNumber": "1",
+    "orderGroup":"Table 1",
 		"orderDate": "2015-11-11",
 		"menuItemIds": [{
 			"menuItem": "h1"
@@ -8,6 +9,7 @@
 		"extras": ""
 	}, {
 		"orderNumber": "2",
+    "orderGroup":"Table 2",
 		"orderDate": "2015-11-11",
 		"menuItemIds": [{
 			"menuItem": "h1",
@@ -16,6 +18,7 @@
 		"extras": "extra brunsås"
 	}, {
 		"orderNumber": "3",
+    "orderGroup":"Table 1",
 		"orderDate": "2015-11-11",
 		"menuItemIds": [{
 			"menuItem": "e1"
