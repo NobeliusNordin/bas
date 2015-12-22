@@ -17,3 +17,67 @@ angular.module('menuApp', ['ionic'])
     }
   });
 })
+
+
+.config(function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+    .state('startPage', {
+    url: '',
+    views: {
+      'startPage' : {
+    template: '<p>TEST</p>',
+    //templateUrl: 'startPage/startPage.html',
+    controller: 'startPageCtrl'
+    }
+  }
+})
+  .state('mainMenu', {
+    url: '/menu',
+    views: {
+      'mainMenu' : {
+        templateUrl: 'mainMenu/mainMenu.html',
+        controller: 'mainMenuCtrl'
+      }
+    }
+  })
+  .state('myOrder', {
+    url: '/order',
+    views: {
+      'myOrder' : {
+        templateUrl: 'myOrder/myOrder.html',
+        controller: 'myOrderCtrl'
+      }
+    }
+  })
+  .state('placeOrder', {
+    url: '/placeOrder',
+    views: {
+      'placeOrder' : {
+        templateUrl: 'placeOrder/placeOrder.html',
+        controller: 'placeOrderCtrl'
+      }
+    }
+  })
+  .state('subMenu', {
+    url: '/subMenu',
+    views: {
+      'subMenu' : {
+        templateUrl: 'subMenu/subMenu.html',
+        controller: 'subMenuCtrl'
+      }
+    }
+  })
+  $urlRouterProvider.otherwise('');
+})
+
+
+.controller('startPageCtrl', function($scope) {
+})
+.controller('mainMenuCtrl', function($scope) {
+})
+.controller('myOrderCtrl', function($scope) {
+})
+.controller('placeOrderCtrl', function($scope) {
+})
+.controller('subMenuCtrl', function($scope) {
+})
