@@ -1,3 +1,3 @@
-var menuAppControllers = angular.module('menuAppControllers', []);
+angular.module('menuAppControllers');
 menuAppControllers.controller('placeOrderCtrl', function($scope) {
 });
