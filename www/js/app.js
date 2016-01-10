@@ -61,6 +61,5 @@ menuApp.config(function($stateProvider, $urlRouterProvider) {
     controller: 'subMenuCtrl'
 
   });
-  
   $urlRouterProvider.otherwise('/');
 });

@@ -1,5 +1,4 @@
-
-.logo {
+.background {
 background: url(../img/1.jpg) no-repeat
 center center fixed;
 -webkit-background-size: cover;
@@ -7,6 +6,10 @@ center center fixed;
 -o-background-size: cover;
 }
 
+.logo {
+  position: relative;
+  margin-left: -82px;
+}
 
 .branding {
   width: 50%;
@@ -14,4 +17,8 @@ center center fixed;
   margin: 0 auto;
   margin-top: 20px;
   text-align: center;
+}
+
+.start-page-dir {
+  color:red;
 }

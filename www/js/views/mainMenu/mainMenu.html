@@ -1,34 +1,44 @@
 <ion-view title="Gör dina val">
 <ion-content>
 
+<div class="list list-inset">
 <div class="item item-divider">Välj först vilken glasstyp du önskar:</div>
+
+  <div class="item item-checkbox">
+    <label class="checkbox">
+      <input type="checkbox">
+    </label>
+    <span class="input-label">Checkbox</span>
+  </div>
+
   <label class="item item-radio">
     <input type="radio" name="glasstyp">
     <div class="item-content">Våffla</div>
-    <i class="radio-icon ion-social-facebook"></i>
+    <i class="radio-icon ion-checkmark-circled"></i>
   </label>
 
   <label class="item item-radio">
-    <input type="radio" name="glasstyp">
+    <input type="radio" name="Glasstyp">
     <div class="item-content">Cone</div>
-    <i class="radio-icon ion-social-facebook"></i>
+    <i class="radio-icon ion-checkmark-circled"></i>
   </label>
 
   <label class="item item-radio">
-    <input type="radio" name="glasstyp">
+    <input type="radio" name="Glasstyp">
     <div class="item-content">Bägare</div>
-    <i class="radio-icon ion-social-facebook"></i>
+    <i class="radio-icon ion-checkmark-circled"></i>
   </label>
 
-  <a href="#/subMenu" class="button button-large">Submeny
+<br />
+  <a href="#/subMenu" class="button button-medium">Submeny
     <ion-nav-view="subMenu"></ion-nav-view></a>
 
-  <a href="#/order" class="button button-large">myOrder
+  <a href="#/order" class="button button-medium">myOrder
     <ion-nav-view="myOrder"></ion-nav-view></a>
 
-  <a href="#/placeOrder" class="button button-large">placeOrder
+  <a href="#/placeOrder" class="button button-medium">placeOrder
   <ion-nav-view="placeOrder"></ion-nav-view></a>
-
+</div>
 
 </ion-content>
 </ion-view>
